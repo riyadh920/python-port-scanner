@@ -1,5 +1,4 @@
 # python-port-scanner
-# Python Port Scanner
 
 ## Description
 A multi-threaded port scanner built with Python that scans open ports on a target host.
