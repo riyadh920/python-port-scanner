@@ -1,4 +1,28 @@
 # python-port-scanner
+# Python Port Scanner
+
+## Description
+A multi-threaded port scanner built with Python that scans open ports on a target host.
+
+## Features
+- Multi-threaded scanning
+- Detect open ports
+- Saves results to file
+- Fast scanning
+
+## Technologies Used
+- Python
+- Socket
+- Threading
+- Kali Linux
+
+## Usage
+python3 scanner_advanced.py
+
+## Screenshot
+![Scan][def2]
 ## Screenshot
 
-![Port Scan Screenshot](screenshots/scan1.png)
+![Port Scan Screenshot][def]
+
+[def]: screenshots/scan1.png
