@@ -19,9 +19,5 @@ A multi-threaded port scanner built with Python that scans open ports on a targe
 python3 scanner_advanced.py
 
 ## Screenshot
-![Scan][def2]
-## Screenshot
 
-![Port Scan Screenshot][def]
-
-[def]: screenshots/scan1.png
+![Port Scan Screenshot](screenshots/scan1.png)
