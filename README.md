@@ -20,4 +20,6 @@ python3 scanner_advanced.py
 
 ## Screenshot
 
-![Port Scan Screenshot](screenshots/scan1.png)
+![Port Scan Screenshot][def]
+
+[def]: screenshots/scan1.png
