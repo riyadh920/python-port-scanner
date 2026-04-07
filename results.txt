@@ -1,0 +1,2 @@
+Port 80 is open | No banner
+Port 53 is open | No banner
