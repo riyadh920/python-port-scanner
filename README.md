@@ -60,10 +60,6 @@ A multi-threaded port scanner built with Python that scans open ports on a targe
 ## Usage
 python3 scanner_advanced.py
 
-## Screenshot
-<<<<<<< HEAD
-![Scan](screenshots/scan1.png)
-
 Enter:
 
 * Target IP address
@@ -116,5 +112,5 @@ Cybersecurity Student
 
 ![Port Scan Screenshot][def]
 
-[def]: screenshots/scan1.png
+[def]: screenshots/Screenshot.png
 >>>>>>> bafb17c120ffff353b7c2da4af037e022005325c
