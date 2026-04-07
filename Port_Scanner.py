@@ -1,0 +1,50 @@
+import socket
+import threading
+
+target = input("Enter target IP or domain: ")
+start_port = 1
+end_port = 1024
+
+print(f"\nScanning target: {target}\n")
+
+open_ports = []
+
+def scan_port(port):
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(0.5)
+        
+        result = sock.connect_ex((target, port))
+        
+        if result == 0:
+            try:
+                banner = sock.recv(1024).decode().strip()
+            except:
+                banner = "No banner"
+            
+            print(f"[OPEN] Port {port} | {banner}")
+            open_ports.append(port)
+        
+        sock.close()
+        
+    except:
+        pass
+
+
+threads = []
+
+for port in range(start_port, end_port):
+    thread = threading.Thread(target=scan_port, args=(port,))
+    threads.append(thread)
+    thread.start()
+
+for thread in threads:
+    thread.join()
+
+print("\nScan completed.")
+print("Open ports:", open_ports)
+
+# Save results to file
+with open("scan_results.txt", "w") as f:
+    for port in open_ports:
+        f.write(f"Port {port} is open\n")

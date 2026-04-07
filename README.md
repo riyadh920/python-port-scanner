@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Advanced Python Port Scanner
 
 ## Overview
@@ -37,11 +38,30 @@ cd port-scanner-advanced
 ```
 
 ---
+=======
+# python-port-scanner
+
+## Description
+A multi-threaded port scanner built with Python that scans open ports on a target host.
+
+## Features
+- Multi-threaded scanning
+- Detect open ports
+- Saves results to file
+- Fast scanning
+
+## Technologies Used
+- Python
+- Socket
+- Threading
+- Kali Linux
+>>>>>>> bafb17c120ffff353b7c2da4af037e022005325c
 
 ## Usage
 python3 scanner_advanced.py
 
 ## Screenshot
+<<<<<<< HEAD
 ![Scan](screenshots/scan1.png)
 
 Enter:
@@ -92,3 +112,9 @@ This tool is for educational and ethical hacking practice only. Do not scan syst
 
 Riyadh
 Cybersecurity Student
+=======
+
+![Port Scan Screenshot][def]
+
+[def]: screenshots/scan1.png
+>>>>>>> bafb17c120ffff353b7c2da4af037e022005325c
